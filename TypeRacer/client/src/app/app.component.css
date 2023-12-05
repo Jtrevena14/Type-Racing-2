@@ -1,0 +1,53 @@
+::ng-deep body{
+    margin:0;
+    background-color: rgb(59, 59, 59);
+
+}
+
+.container{
+    display:grid;
+    place-items: center;
+}
+.navbar{
+    background-color: rgb(59, 59, 59);
+    height:100px;
+    width:100%;
+}
+.word-field{
+    display:flex;
+    margin:auto;
+    font-size:30px;
+    font-weight: bold;
+}
+.words{
+    padding:0 5px;
+}
+.word-field-container{
+    margin:20px 0;
+}
+.type-field input{
+    height:30px;
+    width:500px;
+}
+.correct{
+    color:rgb(211, 211, 211);
+}
+.incorrect{
+    color:rgb(218, 54, 54);
+}
+.predetermined{
+    color:gray
+}
+.restart-button{
+    background-color: white;
+    border-radius: 20px;
+    padding:0 1em;
+}
+.finished-screen{
+    display:grid;
+    margin-top:50px;
+    place-items: center;
+    font-size:50px;
+    font-weight:bold;
+    color:rgb(202, 202, 202);
+}
